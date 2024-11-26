@@ -25,7 +25,7 @@ function App() {
 
     try {
       setIsLoading(true);
-      const response = await fetch("http://localhost:8000/upload", {
+      const response = await fetch("https://geaxbhxbgc.execute-api.us-east-1.amazonaws.com/upload", {
         method: "POST",
         body: formData,
       });

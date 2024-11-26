@@ -9,6 +9,11 @@ __pycache__/
 
 fastapi-env
 
+TerraformDeployment/Lambda_function/lambda_function.zip
+
+terraform.tfstate
+terraform.tfstate.backup
+
 # Node.js
 node_modules/
 *.log
